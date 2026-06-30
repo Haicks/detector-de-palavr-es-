@@ -95,7 +95,7 @@ A transcrição é I/O-bound: a thread fica ociosa aguardando a resposta da API 
 
 ### Configurações testadas
 - 1 thread — serial (T1, baseline)
-- 2 threads
+- 2 threads 
 - 4 threads
 - 8 threads
 - 12 threads
@@ -108,11 +108,11 @@ _(preencher após rodar — os valores abaixo são de referência do modo simula
 
 | Nº Threads | Tempo de Execução (s) |
 | ---------- | --------------------- |
-| 1          |                       |
-| 2          |                       |
-| 4          |                       |
-| 8          |                       |
-| 12         |                       |
+| 1          |    1277,31            |
+| 2          |    549,68             |
+| 4          |    176,21             |
+| 8          |    96,56              |
+| 12         |    66,2               |
 
 ---
 
@@ -131,8 +131,8 @@ _(preencher com os tempos medidos)_
 
 | Threads | Tempo (s) | Speedup | Eficiência |
 | ------- | --------- | ------- | ---------- |
-| 1       |           | 1.0000  | 1.0000     |
-| 2       |           |         |            |
+| 1       |  1277,31  | 1.0000  | 1.0000     |
+| 2       |  549,68   |         |            |
 | 4       |           |         |            |
 | 8       |           |         |            |
 | 12      |           |         |            |
